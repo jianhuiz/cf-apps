@@ -1,0 +1,7 @@
+applications:
+- name: hello
+  command: node server.js
+  instances: 2
+  memory: 512M
+  domain: 10.213.37.211.xip.io
+  host: hello

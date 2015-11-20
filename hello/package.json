@@ -1,0 +1,10 @@
+{
+  "name": "nodejs-hello",
+  "version": "0.1.0",
+  "author": "jianhuiz",
+  "dependencies": {
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
