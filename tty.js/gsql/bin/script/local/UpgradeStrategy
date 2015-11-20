@@ -1,0 +1,7 @@
+MPPDBV100R003C00B100-MPPDBV100R003C00B120	upgrade	python upgradePhase1Cmd_530To1130.py	python upgradePhase2Cmd_530To1130.py -N 1024
+MPPDBV100R003C00B100-MPPDBV100R003C00B130	upgrade	python upgradePhase1Cmd_530To1130.py	python upgradePhase2Cmd_530To1130.py -N 1024
+MPPDBV100R003C00B100-MPPDBV100R003C00B210	upgrade	python upgradePhase1Cmd_530To1130.py	python upgradePhase2Cmd_530To1130.py -N 1024
+MPPDBV100R003C00B100-MPPDBV100R003C00B220	upgrade	python upgradePhase1Cmd_530To1130.py	python upgradePhase2Cmd_530To1130.py -N 1024
+MPPDBV100R003C00B100-MPPDBV100R003C00B230	upgrade	python upgradePhase1Cmd_530To1130.py	python upgradePhase2Cmd_530To1130.py -N 1024
+MPPDBV100R003C00B100-MPPDBV100R003C00B510	upgrade	python upgradePhase1Cmd_530To1130.py	python upgradePhase2Cmd_530To1130.py -N 1024
+MPPDBV100R003C00B100-MPPDBV100R003C00B520	upgrade	python upgradePhase1Cmd_530To1130.py	python upgradePhase2Cmd_530To1130.py -N 1024

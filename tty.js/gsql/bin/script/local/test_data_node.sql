@@ -1,0 +1,1 @@
+select * from pgxc_node where node_type = 'D';

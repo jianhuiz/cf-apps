@@ -1,0 +1,7 @@
+applications:
+- name: ttyjs
+  command: node index.js
+  instances: 1
+  memory: 256M
+  domain: 10.213.37.211.xip.io
+  host: ttyjs

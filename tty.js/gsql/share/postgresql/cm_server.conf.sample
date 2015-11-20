@@ -1,0 +1,8 @@
+log_dir = log                 #default is cm_server data dir
+log_file_size = 16MB          # only support MB
+log_file_count = 300          # log file count
+log_min_messages = WARNING    # log_min_messages.  
+                              #Default WARNING.
+                              # Valid value: DEBUG5, DEBUG1, WARNING, ERROR, LOG, FATAL
+thread_count = 5    	# thread count of the cmserver thread pool
+                              # range: [2 - 255]

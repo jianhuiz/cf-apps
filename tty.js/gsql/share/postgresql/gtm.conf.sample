@@ -1,0 +1,81 @@
+# ----------------------
+# GTM configuration file
+# ----------------------
+#
+# This file must be placed on gtm working directory 
+# specified by -D command line option of gtm or gtm_ctl.  The
+# configuration file name must be "gtm.conf"
+#
+#
+# This file consists of lines of the form
+#
+#  name = value
+#
+# (The "=" is optional.) Whitespace may be used.   Comments are
+# introduced with "#" anywhere on a line.  The complete list of
+# parameter names and allowed values can be found in the
+# Postgres-XC documentation.
+#
+# The commented-out settings shown in this file represent the default
+# values.
+#
+# Re-commenting a setting is NOT sufficient to revert it to the default
+# value.
+#
+# You need to restart the server.
+
+#------------------------------------------------------------------------------
+# GENERAL PARAMETERS
+#------------------------------------------------------------------------------
+
+#nodename = ''				# Specifies the node name.
+					# (changes requires restart)
+#listen_addresses = '*'			# Listen addresses of this GTM.
+					# (changes requires restart)
+#port = 6666				# Port number of this GTM.
+					# (changes requires restart)
+
+#------------------------------------------------------------------------------
+# ERROR REPORTING AND LOGGING
+#------------------------------------------------------------------------------
+
+#log_directory = 'gtm_log'		# directory where log files are written,
+					# can be absolute or relative.
+#log_file = 'gtm-%Y-%m-%d_%H%M%S.log'	# Log file name
+#log_min_messages = WARNING		# log_min_messages.  Default WARNING.
+					# Valid value: DEBUG, DEBUG5, DEBUG4, DEBUG3,
+					# DEBUG2, DEBUG1, INFO, NOTICE, WARNING,
+					# ERROR, LOG, FATAL, PANIC.
+
+#------------------------------------------------------------------------------
+# GTM STANDBY PARAMETERS
+#------------------------------------------------------------------------------
+
+#Those parameters are effective when GTM is activated as a standby server
+#active_host = ''			# Listen address of active GTM.
+					# (changes requires restart)
+#active_port =				# Port number of active GTM.
+					# (changes requires restart)
+
+#local_host = ''			# Listen address of HA local host.
+					# (changes requires restart)
+#local_port =				# Port number of HA local port.
+					# (changes requires restart)
+
+#---------------------------------------
+# OTHER OPTIONS
+#---------------------------------------
+
+enable_alarm = on
+#keepalives_idle = 0			# Keepalives_idle parameter.
+#keepalives_interval = 0		# Keepalives_interval parameter.
+#keepalives_count = 0			# Keepalives_count internal parameter.
+#synchronous_backup = auto		# If backup to standby is synchronous
+					# off, on or auto.
+#wlm_max_mem = 2048 		# Maximum memory an instance can use for its executions, unit: MB.
+							# (changes requires restart)
+#query_memory_limit = 0.25 	# Sets the percentage limit of memory a query can use.
+							# (changes requires restart)
+							
+alarm_component = '/opt/huawei/snas/bin/snas_cm_cmd'
+							
